@@ -47,9 +47,9 @@ h1{font-size:2.67em;}
 h2{font-size:2.00em;}
 h3{font-size:1.67em;}
 h4{font-size:1.33em;}
-p{list-style:none; margin:24px auto 24px auto; padding:0px; width:900px; text-align:left;}
+p{list-style:none; margin:0 auto 24px auto; padding:0px; width:900px; text-align:left;}
 li a, p a {text-decoration:underline; text-decoration-color:#b8860b;}
-ul{list-style:none; margin:24px auto 24px auto; padding:0px; width:800px; text-align:left;}
+ul{list-style:none; margin:4px auto 24px auto; padding:0px; width:800px; text-align:left;}
 ul li{list-style:none; margin:0px auto 0px auto; padding:0px; text-align:left;}
 i,em{font-style:italic;}
 b,strong{font-weight:bold;}
@@ -128,3 +128,30 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
     table.footer{font-size:0.33em;}
 }
 
+.code-highlight {
+    background-color: #EEEEEE;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: 'Roboto Mono', monospace; /* Example for monospaced font, you can change it */
+}
+
+ul.custom-bullets,
+ul.custom-bullets li {
+    list-style-type: disc; /* Or any other style you prefer */
+    margin-left: 20px; /* This adds indentation from the left */
+    padding-left: 0; /* This reduces padding from the left, making indentation less */
+}
+
+ul.custom-sub-bullets,
+ul.custom-sub-bullets li {
+    list-style-type: circle; /* Or any other style you prefer for nested lists */
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+/* Ensure the list-style is not set to 'none' for all ul/li elements */
+ul, li {
+    list-style: inherit;
+    margin-left: inherit;
+    padding-left: inherit;
+}
