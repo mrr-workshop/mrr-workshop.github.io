@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <base href=".">
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+    <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
+    <meta name="description" content="Conference Template">
+    <meta name="resource-type" content="document">
+    <meta name="distribution" content="global">
+    <meta name="KeyWords" content="Conference">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .profile-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        .profile-link {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: black;
+        }
+        @media (max-width: 600px) {
+            .profile-link {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .profile-image {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+    <style>
+        .navigation {
+            width: 100%;
+            text-align: center;
+            border-collapse: collapse;
+        }
+        .navigation td {
+            padding: 10px 20px; /* Adjust padding as needed */
+        }
+        .navigation a {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .navigation a:hover {
+            color: goldenrod;
+        }
+    </style>
+    <title>Multimodal Representation and Retrieval [MRR 2024]</title>
+</head>
+
+
+<body>
+
+    <a id="home"><div class="banner">
+        <img src="../assets/pexels-pixabay-208686.jpg" alt="Conference Template Banner" width="1000px">
+        <div class="top-center">
+            <span class="title1">Multimodal Representation and Retrieval</span><br />
+        </div>
+	<div class="top-left">
+	  <span class="title2"></span> <span class="year">MRR 2024</span>
+	</div>
+        <div class="bottom-right">
+            July 18, 2024 @ SIGIR <br> Washinton DC
+        </div>
+    </div></a>
+
+    <table class="navigation">
+        <tr>
+            <td class="navigation">
+                <a class="current" title="Conference Home Page" href="index.html#">Home</a>
+            </td>
+            <td class="navigation">
+                <a title="Register for the Conference" href="https://sigir-2024.github.io/attend_registration.html">Registration (SIGIR 2024)</a>
+            </td>
+            <td class="navigation">
+                <a title="Conference Program" href="index.html#program">Program</a> 
+            </td>
+            <td class="navigation">
+	      <a title="Speakers" href="index.html#speakers">Speakers</a>
+	    </td>
+            <td class="navigation">
+	      <a title="Panel" href="index.html#panel">Panel</a>
+	    </td>
+	    <td class="navigation">
+                <a title="Organizers" href="index.html#organizers">Organizers</a>
+            </td>
+        </tr>
+    </table>
+
+    <h2>Abstract</h2>
+    <p style="margin: 0; padding: 0;">
+Multimodal data is available in many applications like e-commerce production listings, social media posts and short videos. However, existing algorithms dealing with those types of data still focus on uni-modal representation learning by vision-language alignment and cross-modal retrieval. In this workshop, we target to bring a new retrieval problem where both queries and documents are multimodal. With the popularity of vision language modeling,  large language models (LLMs), retrieval augmented generation (RAG), and multimodal LLM, we see a lot of new opportunities for multimodal representation and retrieval tasks. This event will be a comprehensive half-day workshop focusing on the subject of multimodal representation and retrieval. The agenda includes keynote speeches, oral presentations, and an interactive panel discussion. 
+    </p>
+
+
+    <a id="cfp"><h2>Call for Papers</h2></a>
+    <br />
+    Our objective with this workshop is to capture the interest of researchers in this emerging challenge. We anticipate that the workshop will serve as a catalyst for establishing a dedicated community focused on this topic. By highlighting the novelty and significance of the problem, we aim to attract researchers who are eager to explore and contribute to this field. We invite original research & industrial application papers that present research on multimodal data representation and retrieval.
+    
+    <section id="submission-guidelines">
+        <h3>Submission Guidelines</h3>
+        <p style="margin: 0; padding: 0;">Submissions of short papers must be in English, in PDF format, and be at most 4 pages (including figures, tables, proofs, appendixes, acknowledgments, and any content except references) in length, with unrestricted space for references, in the current ACM two-column conference format. Suitable LaTeX, Word, and Overleaf templates are available from the <a href="http://www.acm.org/publications/proceedings-template" target="_blank">ACM Website</a> (use “sigconf” proceedings template for LaTeX and the Interim Template for Word). ACM's CCS concepts and keywords are required for review.</p>
+        <br/>
+        <p style="margin: 0; padding: 0;">For LaTeX, the following should be used:</p>
+        <pre><code><span class="code-highlight">\documentclass[sigconf,natbib=true,anonymous=true{acmart}]</span></code></pre>    
+        <br/>
+        <p style="margin: 0; padding: 0;">Submissions must be anonymous and should be submitted electronically via EasyChair:</p>
+        <br/>
+        <a href="https://easychair.org/conferences/?conf=mrr2024" target="_blank">https://easychair.org/conferences/?conf=mrr2024</a>
+    
+        <h3>Important dates for submissions to MRR 2024</h3>
+        <ul class="custom-bullets">
+	    <li>Workshop paper submission due date: <s>April 25, 2024 (11:59 pm, AOE)</s> May 5, 2024 (11:59 pm, AOE)</li>
+            <li>Workshop paper acceptance notification: May 23, 2024</li>
+            <li>Workshop day: July 18, 2024</li>
+        </ul>
+        
+        <section id="topics">
+            <h3>Topics includes but not limited to</h3>
+            <ul class="custom-bullets">
+                <li><strong>Multimodal representation learning and retrieval, such as</strong>
+                    <ul class="custom-sub-bullets">
+                        <li>Multimodal embeddings learning and fusion</li>
+                        <li>Learning with noisy labels</li>
+                        <li>Multimodal query representation</li>
+                        <li>Multimodal query understanding</li>
+                        <li>Multimodal query suggestion</li>
+                        <li>Ranking algorithms for multimodal retrieval</li>
+                    </ul>
+                </li>
+
+                <li><strong>Dataset, such as</strong>
+                    <ul class="custom-sub-bullets">
+                        <li>New dataset for multimodal retrieval</li>
+                        <li>Ways to synthesize data </li>
+                    </ul>
+                </li>
+
+                <li><strong>Applications of Multimodal Retrieval, such as</strong>
+                    <ul class="custom-sub-bullets">
+                        <li>Multimodal retrieval in search engine</li>
+                        <li>Multimodal retrieval in recommendation system</li>
+                        <li>Multimodal retrieval in Ads</li>
+                        <li>Multimodal retrieval in Chatbot</li>
+                        <li>Multimodal query suggestion</li>
+                        <li>Multimodal retrieval in Robotics</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        
+    <a id="accepted_papers"><h2>Accepted Papers</h2></a>
+    <div class="paper">
+        <p>
+            <span class="authors">Kang Zhao, Xinyu Zhao, Zhipeng Jin, Yi Yang, Xuewu Jiao, Wen Tao, Yafei Li, Cong Han, Shuanglong Li, and Lin Liu.</span>
+            <span class="title"> <strong>Image Captioning for Baidu Ad Image Generation with Multi-Stage Refinements.</strong></span>
+        </p>
+    </div>
+    <div class="paper">
+        <p>
+            <span class="authors">Jing Zhu, Xiang Song, Vassilis Ioannidis, Danai Koutra, and Christos Faloutsos.</span>
+            <span class="title"><strong><a href="https://www.amazon.science/publications/touchup-g-improving-feature-representation-through-graph-centric-finetuning">Improving Feature Representation through Graph-Centric Finetuning.</a></strong></span>
+        </p>
+    </div>
+    <div class="paper">
+        <p>
+            <span class="authors">Wenliang Zhong, Wenyi Wu, Qi Li, Rob Barton, Boxin Du, Karim Bouyarmane, Shioulin Sam, Ismail Tutar, and Junzhou Huang.</span>
+            <span class="title"><strong><a href="https://arxiv.org/abs/2406.02987">Enhancing Multimodal Large Language Models with Multi-instance Visual Prompt Generator for Visual Representation Enrichment.</a></strong></span>
+        </p>
+    </div>
+    <div class="paper">
+        <p>
+            <span class="authors">Kevin Dela Rosa.</span>
+            <span class="title"><strong><a href="https://arxiv.org/abs/2405.17706">Video Enriched Retrieval Augmented Generation Using Aligned Video Captions.</a></strong></span>
+        </p>
+    </div>    
+    <div class="paper">
+        <p>
+            <span class="authors">Mingwei Tang, Meng Liu, Hong Li, Junjie Yang, Chenglin Wei, Boyang Li, Dai Li, Rengan Xu, Yifan Xu, Zehua Zhang, Xiangyu Wang, Linfeng Liu, Yuelei Xie, Chengye Liu, Labib Fawaz, Li Li, Hongnan Wang, Bill Zhu, and Sri Reddy.</span>
+            <span class="title"><strong><a href="https://arxiv.org/abs/2406.05898v2">Async Learned User Embeddings for Ads Delivery Optimization.</a></strong></span>
+        </p>
+    </div>    
+    <div class="paper">
+        <p>
+            <span class="authors">Sarthak Srivastava, and Kathy Wu.</span>
+            <span class="title"><strong><a href="https://www.amazon.science/publications/vision-language-understanding-in-hyperbolic-space">Vision-Language Understanding in Hyperbolic Space.</a></strong></span>
+        </p>
+    </div>
+
+	    
+<a id="program"><h2>Program</h2></a>
+<br />
+
+<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
+  <tr>
+    <th><strong>Time</strong></th>
+    <th><strong>Activity</strong></th>
+    <th><strong>Host</strong></th>
+  </tr>
+  <tr>
+    <td>9:00 AM - 9:05 AM</td>
+    <td>Opening Remarks</td>
+    <td>Doug Gray</td>
+  </tr>
+  <tr>
+    <td>9:05 AM - 9:35 AM</td>
+    <td>Keynote Address by Hamed Zamani</td>
+    <td>Doug Gray</td>
+  </tr>
+  <tr>
+    <td>9:35 AM - 10:35 AM</td>
+    <td>Oral Presentations</td>
+    <td>Xinliang Zhu</td>
+  </tr>
+  <tr>
+    <td>10:35 AM - 10:45 AM</td>
+    <td>Coffee Break</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>10:45 AM - 11:15 AM</td>
+    <td>Keynote Address by Dinesh Manocha</td>
+    <td>Arnab Dhua</td>
+  </tr>
+  <tr>
+    <td>11:15 AM - 11:45 AM</td>
+    <td>Panel Discussion</td>
+    <td>Arnab Dhua</td>
+  </tr>
+  <tr>
+    <td>11:45 AM - 11:50 AM</td>
+    <td>Closing Remarks</td>
+    <td>Xinliang Zhu</td>
+  </tr>
+  <tr>
+    <td>11:50 AM - 12:15 PM</td>
+    <td>Networking</td>
+    <td>-</td>
+  </tr>
+</table>
+
+
+<a id="speakers"><h2>Speakers</h2></a>
+<ul>
+<li>
+	<a class="profile-link" href="https://www.cics.umass.edu/people/zamani-hamed">
+	<img class="profile-image" src="../assets/Panelist/hamed.jpg" alt="Hamed Zamani">  Hamed Zamani, Associate Professor, University of Massachusetts Amherst</a>
+</li>
+	<p> Abstract: Information access systems, such as search engines and recommender systems, have long supported people in accomplishing a wide range of tasks. In this talk, I will discuss how one can broaden the scope of users of information access systems to include task-driven machines, such as generative AI models. In this way, the core principles of indexing, representation, retrieval, and ranking can be applied and extended to substantially improve model generalization, scalability, robustness, and interpretability. I will describe a generic retrieval-enhanced machine learning (REML) framework and connect this framework with the information retrieval literature. I will next introduce our recent implementations of REML for various language and vision tasks. Finally, I will discuss open problems in this area for future explorations.  </p>
+<br/>
+
+<li>
+	<a class="profile-link" href="https://www.cs.umd.edu/people/dmanocha">
+	<img class="profile-image" src="../assets/Panelist/dinesh.jpg" alt="Dinesh Manocha"> Dinesh Manocha, Professor, University of Maryland
+	</a>
+</li>
+	<p>Abstract: Perceiving and understanding non-speech sounds and non-verbal speech are essential for making informed decisions that facilitate our interactions with our surroundings. Audio is a crucial modality, offering rich, contextual information that complements visual and textual data, thereby enhancing the capabilities of AI systems. In this talk, we will highlight the significance of audio as an integral component in developing the next generation of intelligent AI agents. We will highlight why audio is an indispensable modality for AI, highlighting how humans naturally and extensively rely on auditory cues to navigate and comprehend the physical and virtual worlds.  Understanding the auditory signals is fundamental to creating AI systems that can interact with the world in a more human-like and intuitive manner. Next, we will discuss how contemporary AI systems are beginning to integrate audio perception with other modalities to achieve more holistic and accurate environmental awareness. We will describe key advancements and methodologies that enable these multimodal integrations, focusing on the role of audio encoders and large language models (LLMs) in this synergy. Finally, we will address the open challenges and future directions in the field of audio question answering and multimodal AI.</p>
+</ul>
+
+<a id="panel"><h2>Panel</h2></a>
+<ul>
+        <li>
+            <a class="profile-link" href="https://www.linkedin.com/in/bindalanuj/">
+                <img class="profile-image" src="../assets/Panelist/anuj.jpeg" alt="Anuj Bindal"> Anuj Bindal, Director of Visual Shopping, Amazon
+            </a>
+	</li>
+	<li>
+	    <a class="profile-link" href="https://ischool.uw.edu/people/faculty/profile/chirags">
+		<img class="profile-image" src="../assets/Panelist/chirag.jpeg" alt="Chirag Shah"> Chirag Shah, Professor, University of Washington
+	   </a>
+	</li>
+	<li>
+	   <a class="profile-link" href="https://www.cs.umd.edu/people/dmanocha">
+		<img class="profile-image" src="../assets/Panelist/dinesh.jpg" alt="Dinesh Manocha"> Dinesh Manocha, Professor, University of Maryland
+	   </a>
+	</li>
+	<li>
+	   <a class="profile-link" href="https://www.cics.umass.edu/people/zamani-hamed">
+	   	<img class="profile-image" src="../assets/Panelist/hamed.jpg" alt="Hamed Zamani">  Hamed Zamani,  Associate Professor, UMass Amherst
+	   </a>
+        </li>
+</ul>
+    
+
+ <a id="organizers"><h2>Organizers</h2></a>
+    <ul>
+        <li>
+            <a class="profile-link" href="https://www.linkedin.com/in/xinliang-zhu-6b589942/">
+                <img class="profile-image" src="../assets/Organizer/xinliang.jpg" alt="Xinliang Zhu"> Xinliang Zhu, Amazon
+            </a>
+        </li>
+        <li>
+            <a class="profile-link" href="https://www.linkedin.com/in/arnabdhua/">
+                <img class="profile-image" src="../assets/Organizer/arnab.jpeg" alt="Arnab Dhua"> Arnab Dhua, Amazon
+            </a>
+        </li>
+        <li>
+            <a class="profile-link" href="https://www.linkedin.com/in/de3ug/">
+                <img class="profile-image" src="../assets/Organizer/doug.jpeg" alt="Douglas Gray"> Douglas Gray, Amazon
+            </a>
+        </li>
+        <li>
+            <a class="profile-link" href="https://www.linkedin.com/in/i-zeki-yalniz-88094555/">
+                <img class="profile-image" src="../assets/Organizer/zeki.jpeg" alt="I. Zeki Yalniz"> I. Zeki Yalniz, Meta
+            </a>
+        </li>
+        <li>
+            <a class="profile-link" href="https://www.linkedin.com/in/tan-y-78675862/">
+                <img class="profile-image" src="../assets/Organizer/tan.jpeg" alt="Tan Yu"> Tan Yu, Nvidia
+            </a>
+        </li>
+        <li>
+            <a class="profile-link" href="https://www.mohamed-elhoseiny.com/">
+                <img class="profile-image" src="../assets/Organizer/mohamed.png" alt="Mohamed H. Elhoseiny"> Mohamed H. Elhoseiny, KAUST
+            </a>
+        </li>
+        <li>
+            <a class="profile-link" href="https://bryanplummer.com/">
+                <img class="profile-image" src="../assets/Organizer/bryan.jpg" alt="Bryan A. Plummer"> Bryan A. Plummer, Boston University
+            </a>
+        </li>
+    </ul>
+</body>
+</html>
+
+</body>
+</html>

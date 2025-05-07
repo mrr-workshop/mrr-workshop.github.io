@@ -47,9 +47,9 @@ h1{font-size:2.67em;}
 h2{font-size:2.00em;}
 h3{font-size:1.67em;}
 h4{font-size:1.33em;}
-p{list-style:none; margin:0 auto 24px auto; padding:0px; width:900px; text-align:left;}
+p{list-style:none; margin:24px auto 24px auto; padding:0px; width:900px; text-align:left;}
 li a, p a {text-decoration:underline; text-decoration-color:#b8860b;}
-ul{list-style:none; margin:4px auto 24px auto; padding:0px; width:800px; text-align:left;}
+ul{list-style:none; margin:24px auto 24px auto; padding:0px; width:800px; text-align:left;}
 ul li{list-style:none; margin:0px auto 0px auto; padding:0px; text-align:left;}
 i,em{font-style:italic;}
 b,strong{font-weight:bold;}
@@ -77,16 +77,14 @@ th,td{
 }
 
 /* Website Banner */
-.banner {position: relative; font-family:'Roboto Slab',serif; height: 520px; overflow: hidden;}
-.banner img {width: 1000px; height: 100%; object-fit: cover; object-position: center center;}
-.top-left {font-size:5.33em; color: #505050; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 65px; margin-top: 65px;}
-.top-center {font-size:5.33em; color: #505050; background: #fafafa; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 0px;}
+.banner {position: relative; font-family:'Roboto Slab',serif;}
+.top-left {font-size:5.33em; color: #505050; background: #fafafa; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 0px;}
 .bottom-right {font-size:2.33em; color: #fafafa; line-height: 1.5em; width: auto; height: 100px; padding: 0px 27px 27px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
 
 /* Conference Title Logo */
-.title1{color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0; font-size: 0.6em;} 
-.title2{color: #b2132e; text-shadow: 1px 1px 10px #c0c0c0, 1px 1px 20px #c0c0c0;}
-.year{color: #fff; font-size:1.27em; font-weight: lighter; text-shadow: 1px 1px 3px #0a0a0a;}
+.title1{color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0;} 
+.title2{color: #52739e; text-shadow: 1px 1px 3px #c0c0c0;}
+.year{color: #505050; font-size:0.67em; font-weight: lighter;}
 
 /* Navigation Links (Home, Registration, etc) */
 table.navigation{width:800px;}
@@ -129,30 +127,3 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
     table.footer{font-size:0.33em;}
 }
 
-.code-highlight {
-    background-color: #EEEEEE;
-    padding: 2px 4px;
-    border-radius: 4px;
-    font-family: 'Roboto Mono', monospace; /* Example for monospaced font, you can change it */
-}
-
-ul.custom-bullets,
-ul.custom-bullets li {
-    list-style-type: disc; /* Or any other style you prefer */
-    margin-left: 20px; /* This adds indentation from the left */
-    padding-left: 0; /* This reduces padding from the left, making indentation less */
-}
-
-ul.custom-sub-bullets,
-ul.custom-sub-bullets li {
-    list-style-type: circle; /* Or any other style you prefer for nested lists */
-    margin-left: 20px;
-    padding-left: 0;
-}
-
-/* Ensure the list-style is not set to 'none' for all ul/li elements */
-ul, li {
-    list-style: inherit;
-    margin-left: inherit;
-    padding-left: inherit;
-}
