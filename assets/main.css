@@ -156,3 +156,30 @@ ul, li {
     margin-left: inherit;
     padding-left: inherit;
 }
+
+
+/* CONTACT SECTION */
+#contact {
+    margin: 4em auto;           /* space above and below */
+    width: 900px;               /* same max-width as your paragraphs */
+    text-align: center;         /* center the text */
+}
+
+#contact h2 {
+    /* inherits your h2 rules (Roboto Slab, #813c54, etc),
+       but if you want to tweak: */
+    margin-bottom: 0.5em;
+}
+
+#contact p {
+    font-size: 1em;             /* same as body text */
+    line-height: 1.5em;
+}
+
+#contact a {
+    text-decoration: underline;
+    text-decoration-color: #b8860b;  /* link color matches your bullets/links */
+}
+#contact a:hover {
+    color: #b2132e;             /* same hover tone as elsewhere */
+}
