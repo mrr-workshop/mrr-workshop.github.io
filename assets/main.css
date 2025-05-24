@@ -161,7 +161,6 @@ ul, li {
 /* CONTACT SECTION */
 #contact {
     margin: 4em auto;           /* space above and below */
-    width: 900px;               /* same max-width as your paragraphs */
     text-align: left;         /* center the text */
 }
 
