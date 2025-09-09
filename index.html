@@ -68,6 +68,35 @@
         .navigation a:hover {
             color: goldenrod;
         }
+        .program-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .program-table th, .program-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        .program-table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .program-table .time-col {
+            width: 15%;
+            font-weight: bold;
+        }
+        .program-table .session-col {
+            width: 85%;
+        }
+        .keynote-row {
+            background-color: #f9f9f9;
+            font-weight: bold;
+        }
+        .break-row {
+            background-color: #e8f4f8;
+            font-style: italic;
+        }
     </style>
     <title>Multimodal Representation and Retrieval [MRR 2025]</title>
 </head>
@@ -97,6 +126,9 @@
                 <a title="Register for the Conference" href="https://iccv.thecvf.com/Conferences/2025/">Registration (ICCV 2025)</a>
             </td>
             <td class="navigation">
+                <a title="Workshop Program" href="index.html#program">Program</a>
+            </td>
+            <td class="navigation">
                 <a title="Past Events" href="index.html#past_events">Past Events</a> 
             </td>
             <td class="navigation">
@@ -107,7 +139,7 @@
 
     <h2>Abstract</h2>
     <p style="margin: 0; padding: 0;">
-Multimodal data is available in many applications like e-commerce production listings, social media posts and short videos. However, existing algorithms dealing with those types of data still focus on uni-modal representation learning by vision-language alignment and cross-modal retrieval. In this workshop, we target to bring a new retrieval problem where both queries and documents are multimodal. With the popularity of vision language modeling, large language models (LLMs), retrieval augmented generation (RAG), and multimodal LLM, we see a lot of new opportunities for multimodal representation and retrieval tasks. This event will be a comprehensive workshop focusing on the subject of multimodal representation and retrieval.
+Multimodal representation learning is central to modern AI, enabling applications across retrieval, generation, RAG, reasoning, agentic AI, and embodied intelligence. With the growing ubiquity of multimodal data—from e-commerce listings to social media and video content—new challenges arise in multimodal retrieval, where both queries and indexed content span multiple modalities. This task requires deeper semantic understanding and reasoning, especially at scale, where data complexity and noise become significant hurdles. Following the success of our first edition, the second Multimodal Representation and Retrieval Workshop at ICCV 2025 will continue to foster progress in this critical area. The half-day event will feature keynote talks, an invited talk, and oral and poster presentations.
     </p>
 
 
@@ -173,6 +205,58 @@ Multimodal data is available in many applications like e-commerce production lis
                 </li>
             </ul>
         </section>
+
+    <a id="program"><h2>Program</h2></a>
+    <table class="program-table">
+        <thead>
+            <tr>
+                <th class="time-col">Time</th>
+                <th class="session-col">Session</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="time-col">8:30 - 8:35 am</td>
+                <td class="session-col">Opening Remarks</td>
+            </tr>
+            <tr>
+                <td class="time-col">8:35 - 8:55 am</td>
+                <td class="session-col">Invited Talk - Roi Herzig</td>
+            </tr>
+            <tr class="keynote-row">
+                <td class="time-col">8:55 - 9:35 am</td>
+                <td class="session-col">Keynote: Cordelia Schmid</td>
+            </tr>
+            <tr>
+                <td class="time-col">9:35 - 9:50 am</td>
+                <td class="session-col">Rate–Distortion Limits for Multimodal Retrieval: Theory, Optimal Codes, and Finite-Sample Guarantees</td>
+            </tr>
+            <tr class="break-row">
+                <td class="time-col">9:50 - 10:35 am</td>
+                <td class="session-col">Coffee Break & Poster Session</td>
+            </tr>
+            <tr>
+                <td class="time-col">10:35 - 10:50 am</td>
+                <td class="session-col">MIND-RAG: Multimodal Context-Aware and Intent-Aware Retrieval-Augmented Generation for Educational Publications</td>
+            </tr>
+            <tr class="keynote-row">
+                <td class="time-col">10:50 - 11:30 am</td>
+                <td class="session-col">Keynote: Jianwei Yang</td>
+            </tr>
+            <tr>
+                <td class="time-col">11:30 - 11:45 am</td>
+                <td class="session-col">Refining Skewed Perceptions in Vision-Language Contrastive Models through Visual Representations</td>
+            </tr>
+            <tr class="keynote-row">
+                <td class="time-col">11:45 - 12:25 pm</td>
+                <td class="session-col">Keynote: Kristen Grauman</td>
+            </tr>
+            <tr>
+                <td class="time-col">12:25 - 12:30 pm</td>
+                <td class="session-col">Closing Remarks</td>
+            </tr>
+        </tbody>
+    </table>
         
     <a id="past_events"><h2>Past Events</h2></a>
     <ul class="custom-bullets">
